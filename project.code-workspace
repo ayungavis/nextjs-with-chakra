@@ -1,0 +1,55 @@
+{
+  "launch": {
+    "configurations": [
+      {
+        "name": "Docker: Attach to Node",
+        "type": "node",
+        "request": "attach",
+        "address": "localhost",
+        "localRoot": "${workspaceFolder}",
+        "remoteRoot": "/usr/src/app",
+        "protocol": "inspector",
+        "restart": true
+      },
+      {
+        "name": "Server (Local)",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/next",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Unit Tests (Local)",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/jest",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Current File as Unit Test (Local)",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/jest",
+        "args": ["${file}"],
+        "console": "integratedTerminal"
+      }
+    ],
+    "compounds": []
+  },
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "coenraads.bracket-pair-colorizer",
+      "naumovs.color-highlight",
+      "bierner.color-info",
+      "paulmolluzzo.convert-css-in-js",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+}
