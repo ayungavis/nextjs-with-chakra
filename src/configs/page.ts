@@ -21,10 +21,10 @@ export class Page implements IEnum {
   /**
    * Default value
    */
-  private static _defaultTitle = browserEnv.APP_NAME ? browserEnv.APP_NAME : 'Xendit Trial';
+  private static _defaultTitle = browserEnv.APP_NAME ? browserEnv.APP_NAME : 'Next with Chakra';
   private static _defaultDescription = browserEnv.APP_DESCRIPTION
     ? browserEnv.APP_DESCRIPTION
-    : 'Xendit Trial made with love using NextJS TypeScript by Wahyu Adi Kurniawan';
+    : 'Next with Chakra made with love using NextJS TypeScript by Wahyu Adi Kurniawan';
 
   /**
    * Static page values
