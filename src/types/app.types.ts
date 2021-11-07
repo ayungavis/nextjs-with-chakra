@@ -1,7 +1,8 @@
 import { DocumentContext } from 'next/document';
-import { Context, Store } from 'next-redux-wrapper';
+import { Context } from 'next-redux-wrapper';
 import { GetServerSidePropsContext, NextPageContext } from 'next';
 import { IncomingMessage } from 'http';
+import { AppStore } from 'store/configureStore';
 
 /**
  * NextDocumentContext with redux store context
@@ -11,12 +12,12 @@ import { IncomingMessage } from 'http';
  */
 export type AppContext = DocumentContext &
   Context & {
-    readonly store: Store;
+    readonly store: AppStore;
   };
 
 export type ServerSideContext = GetServerSidePropsContext &
   DocumentContext &
-  Context & { readonly store: Store };
+  Context & { readonly store: AppStore };
 
 export interface CookieMessage extends IncomingMessage {
   cookies: { [name: string]: string };
