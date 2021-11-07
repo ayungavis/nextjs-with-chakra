@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { IUser } from 'models';
-import { ServerSideContext } from 'types/app';
+import { ServerSideContext } from 'types/app.types';
 import routeNames from 'configs/routes';
 import { getPathUrl } from 'utils/router';
 import { getRouteCallback, setAuthHeader } from 'utils/auth';
