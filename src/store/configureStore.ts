@@ -1,7 +1,9 @@
 import { env } from 'configs/env';
-import { RootState } from './reducers';
-import { Context, createWrapper, MakeStore } from 'next-redux-wrapper';
-import { serialize, deserialize } from 'json-immutable';
+import { createWrapper } from 'next-redux-wrapper';
+import { Action, combineReducers, configureStore, ThunkAction } from '@reduxjs/toolkit';
+import appSlice from './slices/app.slice';
+import pageSlice from './slices/page.slice';
+import { deserialize, serialize } from 'utils/immutable';
 
 /**
  * Global store configuration for redux
@@ -9,18 +11,23 @@ import { serialize, deserialize } from 'json-immutable';
  *
  * @author Wahyu Adi Kurniawan<wahyuadikurniawan@live.com>
  */
-const configureStoreComponent = (() => {
-  if (env.NODE_ENV === 'production') {
-    return require('./configureStore.production');
-  }
-  return require('./configureStore.development');
-})();
+export const rootReducers = combineReducers({
+  app: appSlice,
+  page: pageSlice,
+});
 
-export const configureStore: MakeStore<RootState> = (context: Context) =>
-  configureStoreComponent.configureStore();
+const makeStore = () =>
+  configureStore({
+    reducer: rootReducers,
+    devTools: env.NODE_ENV !== 'production',
+  });
 
-export const wrapper = createWrapper<RootState>(configureStore, {
-  debug: env.NODE_ENV === 'development',
+export type AppStore = ReturnType<typeof makeStore>;
+export type AppDispatch = ReturnType<typeof makeStore>['dispatch'];
+export type AppState = ReturnType<AppStore['getState']>;
+export type AppThunk<ReturnType = void> = ThunkAction<ReturnType, AppState, unknown, Action>;
+
+export const wrapper = createWrapper<AppStore>(makeStore, {
   serializeState: (state) => serialize(state),
   deserializeState: (state) => deserialize(state),
 });
