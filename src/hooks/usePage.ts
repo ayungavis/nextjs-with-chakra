@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import { Page } from 'configs/page';
-import { changePage, pageSelector } from 'store/page';
+import { useAppDispatch, useAppSelector } from './useRedux';
+import { changePage } from 'store/slices/page.slice';
 
 /**
  * Page custom-hooks
@@ -15,11 +15,11 @@ type PageOperators = {
 };
 
 export const usePage = (): Readonly<PageOperators> => {
-  const dispatch = useDispatch();
-  const pageState = useSelector(pageSelector);
+  const dispatch = useAppDispatch();
+  const pageState = useAppSelector((state) => state.page);
 
   return {
-    selectedPage: pageState,
+    selectedPage: pageState.selectedPage,
     changePage: useCallback(
       (selectedPage: Page) => {
         dispatch(changePage({ selectedPage }));
