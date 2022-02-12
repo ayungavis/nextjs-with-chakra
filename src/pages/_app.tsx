@@ -45,7 +45,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         {/* PWA primary color */}
         <meta name="theme-color" content={theme.colors.brand[500]} />
         {/* Favicon */}
-        <link rel="icon" href="/img/icon.webp" />
+        {/* <link rel="icon" href="/img/icon.webp" /> */}
       </Head>
       <ChakraProvider theme={theme}>
         <Component {...pageProps} />
