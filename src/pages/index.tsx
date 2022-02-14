@@ -1,7 +1,8 @@
 import { Layout } from 'components/templates';
 import { Page } from 'configs/page';
 import { wrapper } from 'store/configureStore';
-import { changePage, IPagePayload } from 'store/page';
+import { changePage } from 'store/slices/page.slice';
+import { IPagePayload } from 'types/pages.types';
 
 interface Props {
   children?: React.ReactNode;
