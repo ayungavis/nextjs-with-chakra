@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
+    "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
