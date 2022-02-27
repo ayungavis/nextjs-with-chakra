@@ -1,4 +1,4 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 
 const colors = {
   brand: {
@@ -11,6 +11,11 @@ const fonts = {
   body: 'Roboto',
 };
 
-const theme = extendTheme({ colors, fonts });
+const config: ThemeConfig = {
+  initialColorMode: 'light',
+  useSystemColorMode: true,
+};
+
+const theme = extendTheme({ colors, fonts, config });
 
 export default theme;
