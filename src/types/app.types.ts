@@ -26,3 +26,7 @@ export interface CookieMessage extends IncomingMessage {
 export interface CookiesPageContext extends NextPageContext {
   req: CookieMessage | undefined;
 }
+
+export interface AppDefaultState {
+  appVersion: number;
+}
