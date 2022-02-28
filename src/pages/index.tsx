@@ -1,8 +1,10 @@
+import { IconButton, useColorMode } from '@chakra-ui/react';
 import { Layout } from 'components/templates';
 import { Page } from 'configs/page';
 import { wrapper } from 'store/configureStore';
 import { changePage } from 'store/slices/page.slice';
 import { IPagePayload } from 'types/pages.types';
+import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 interface Props {
   children?: React.ReactNode;
@@ -18,7 +20,18 @@ export const getServerSideProps = wrapper.getServerSideProps(
 );
 
 const Home = (): JSX.Element => {
-  return <Layout>This is the main of the page of this boilerplate.</Layout>;
+  const { colorMode, toggleColorMode } = useColorMode();
+
+  return (
+    <Layout>
+      <p>This is the main of the page of this boilerplate.</p>
+      <IconButton
+        aria-label="Change color mode"
+        onClick={toggleColorMode}
+        icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+      />
+    </Layout>
+  );
 };
 
 export default Home;
