@@ -1,6 +1,6 @@
 import { mainApi } from 'configs/axios';
 import { ParsedUrlQuery } from 'node:querystring';
-import { AppContext } from 'types/app';
+import { AppContext } from 'types/app.types';
 import { getCookie } from './cookie';
 import { IncomingMessage } from 'node:http';
 
