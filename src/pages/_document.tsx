@@ -7,19 +7,18 @@ import Document, {
   Main,
   NextScript,
 } from 'next/document';
-
+import { ColorModeScript } from '@chakra-ui/react';
 /**
  * Document for NextJS
  * @see https://nextjs.org/docs/advanced-features/custom-document
  *
  */
-export default class MyDocument extends Document {
-  render(): JSX.Element {
-    return (
-      <Html lang="en">
-        <Head>
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
-          {/* <script
+const MyDocument = (): JSX.Element => {
+  return (
+    <Html lang="en">
+      <Head>
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${browserEnv.GOOGLE_TRACKING_ID}`}
           />
@@ -34,15 +33,15 @@ export default class MyDocument extends Document {
                       `,
             }}
           /> */}
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
-}
+      </Head>
+      <body>
+        <ColorModeScript initialColorMode="system" />
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
+};
 
 // `getInitialProps` belongs to `_document` (instead of `_app`),
 // it's compatible with server-side generation (SSG).
@@ -56,3 +55,5 @@ MyDocument.getInitialProps = async (ctx: DocumentContext) => {
     styles: [...React.Children.toArray(initialProps.styles)],
   };
 };
+
+export default MyDocument;

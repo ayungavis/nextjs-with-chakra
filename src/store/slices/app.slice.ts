@@ -1,8 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { HYDRATE } from 'next-redux-wrapper';
+import { AppDefaultState } from 'types/app.types';
 
-const initialState = {
-  appVersion: 1.0,
+const initialState: AppDefaultState = {
+  appVersion: 1,
 };
 
 const appSlice = createSlice({
@@ -15,7 +16,6 @@ const appSlice = createSlice({
   },
   extraReducers: {
     [HYDRATE]: (state, action) => {
-      console.log('HYDRATE', state, action.payload);
       return {
         ...state,
         ...action.payload.app,
