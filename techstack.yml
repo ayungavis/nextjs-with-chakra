@@ -1,7 +1,7 @@
 repo_name: ayungavis/nextjs-with-chakra
-report_id: 8a54ed6d71ccb31e56e8b87fddba5af0
+report_id: 63a2233261b2007442f1b45ce41a97b3
 repo_type: Public
-timestamp: '2023-11-24T02:03:12+00:00'
+timestamp: '2023-12-14T13:20:34+00:00'
 requested_by: ayungavis
 provider: github
 branch: main
@@ -47,7 +47,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 16:45:41.000000000 Z
@@ -60,7 +60,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-07 16:23:41.000000000 Z
@@ -86,7 +86,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -99,7 +99,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/4074/13142323.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -124,7 +124,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source: ".eslintrc"
   last_updated_by: ayungavis
   last_updated_on: 2021-07-07 16:23:41.000000000 Z
 - name: Git
@@ -169,7 +169,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -193,7 +193,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 16:45:41.000000000 Z
@@ -243,7 +243,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 16:45:41.000000000 Z
@@ -257,7 +257,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -271,7 +271,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -285,7 +285,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -299,7 +299,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -313,7 +313,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -327,7 +327,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 16:45:41.000000000 Z
@@ -341,7 +341,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -355,7 +355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 16:45:41.000000000 Z
@@ -376,7 +376,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -390,7 +390,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 17:12:04.000000000 Z
@@ -404,7 +404,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: ayungavis
   last_updated_on: 2021-07-08 16:45:41.000000000 Z
@@ -418,7 +418,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -432,7 +432,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -446,7 +446,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
@@ -460,7 +460,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ayungavis/nextjs-with-chakra/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Wahyu Adi Kurniawan
   last_updated_on: 2021-11-06 10:19:19.000000000 Z
