@@ -50,7 +50,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ayungavis/nextjs-with-chakra](https://github.com/ayungavis/nextjs-with-chakra)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|36<br/>Tools used|12/14/23 <br/>Report generated|
+|39<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -235,9 +235,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (16)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (19)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (16)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (19)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -250,13 +250,16 @@ Full tech stack [here](/techstack.md)
 |[compression](https://www.npmjs.com/compression)|v1.7.4|07/08/21|ayungavis |MIT|N/A|
 |[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.24.0|11/06/21|Wahyu Adi Kurniawan |MIT|N/A|
 |[express](https://www.npmjs.com/express)|v4.17.1|07/08/21|ayungavis |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
+|[husky](https://www.npmjs.com/husky)|v7.0.1|08/06/21|ayungavis |MIT|N/A|
 |[immutable](https://www.npmjs.com/immutable)|v4.0.0|11/06/21|Wahyu Adi Kurniawan |MIT|N/A|
 |[js-cookie](https://www.npmjs.com/js-cookie)|v2.2.1|07/08/21|ayungavis |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v11.0.0|07/08/21|ayungavis |MIT|N/A|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|07/08/21|ayungavis |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v17.0.2|11/06/21|Wahyu Adi Kurniawan |MIT|N/A|
 |[react-redux](https://www.npmjs.com/react-redux)|v7.2.4|11/06/21|Wahyu Adi Kurniawan |MIT|N/A|
 |[redux-devtools-extension](https://www.npmjs.com/redux-devtools-extension)|v2.13.9|11/06/21|Wahyu Adi Kurniawan |MIT|N/A|
 |[redux-logger](https://www.npmjs.com/redux-logger)|v3.0.6|11/06/21|Wahyu Adi Kurniawan |MIT|N/A|
+|[yup](https://www.npmjs.com/yup)|v0.32.9|07/07/21|ayungavis |MIT|N/A|
 
 <br/>
 <div align='center'>
